@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 19052025-change-boolean-to-varchar
+      author: elvin
+      changes:
+        - modifyDataType:
+            tableName: my_user
+            columnName: active
+            newDataType: VARCHAR(10)

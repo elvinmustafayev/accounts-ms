@@ -1,0 +1,11 @@
+databaseChangeLog:
+  - include:
+      file: db/changelog/v1.0/create-customer-table.yaml
+  - include:
+      file: db/changelog/v1.0/create-accounts-table.yaml
+  - include:
+      file: db/changelog/v1.0/create-user-table.yaml
+  - include:
+      file: db/changelog/v1.0/modify-column-type-my-user-table.yaml
+  - include:
+      file: db/changelog/v1.0/make-id-auto-increment-my-user.yaml

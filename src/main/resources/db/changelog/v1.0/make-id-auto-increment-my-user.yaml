@@ -1,0 +1,9 @@
+databaseChangeLog:
+  - changeSet:
+      id: 2025-05-19-add-auto-increment-id-my-user
+      author: elvin.mustafayev
+      changes:
+        - addAutoIncrement:
+            tableName: my_user
+            columnName: id
+            columnDataType: BIGINT
